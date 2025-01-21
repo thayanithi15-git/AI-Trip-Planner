@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/trip',
+    path: '/trip-plan',
     element: <MainTrip />,
   },
 ]);
