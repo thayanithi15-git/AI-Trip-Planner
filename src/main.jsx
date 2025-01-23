@@ -19,7 +19,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <RouterProvider router={router} />
+    <div className="bg-gradient-to-b from-gray-700 via-gray-900 to-black min-h-screen">
+      <Header />
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>,
 );

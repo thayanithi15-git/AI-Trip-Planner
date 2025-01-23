@@ -7,7 +7,7 @@ import Body from './components/custom/body';
 
 export default function App() {
   return (
-    <div>
+    <div >
       <Body />
     </div>
   )
